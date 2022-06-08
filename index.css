@@ -1,0 +1,107 @@
+/*
+Colors :
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+body {
+	background-color: hsl(217,54%,11%);
+	font-family:'Outfit';
+}
+.main-square{
+	background-color:  hsl(216, 50%, 16%);
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	margin:auto;
+	margin-top:15%;
+	margin-bottom:15%;
+	width:75%;
+	max-width:300px;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+.nft-description{
+	color: hsl(215, 51%, 70%);
+	font-size: 18px;
+	margin:0;
+	margin-bottom: 15px;
+}
+.prix-time {
+	display: flex;
+	flex-wrap:nowrap;
+	justify-content: space-between;
+}
+.prix{
+	color:hsl(178, 100%, 50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.eth-icon{
+	margin-right:5px;
+}
+.time{
+	color:hsl(215, 51%, 70%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.text-time{
+	margin-left: 50px;
+}
+.overlay{
+	position:relative;
+	width: 300px;
+    height: 300px;
+
+}
+.img-nft {
+	border-radius: 10px;
+	height: 100%;
+
+	align-self:center;
+	width:100%;
+
+}
+
+.nft-name{
+	color:  hsl(0, 0%, 100%);
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+a:hover{
+	color:hsl(178, 100%, 50%);
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+hr{
+	border-top:1px solid  hsl(215, 51%, 70%);
+	border-bottom: none;
+	border-left: none;
+	border-right:none;
+	margin-top:10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.creator{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 15px;
+}
+.avatar-creator{
+	border:1px solid white;
+	border-radius: 50%;
+	width:50px;
+	margin-right:15px;
+}
+.creator-name{
+	color:hsl(0, 0%, 100%);
+}
